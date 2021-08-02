@@ -1,5 +1,4 @@
-
-
+import CartWidget from './CartWidget'
 function NavBar () {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,6 +20,16 @@ function NavBar () {
             <li class="nav-item">
             <a class="nav-link" href="#">Contacto</a>
             </li>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <CartWidget/>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
           </ul>
         </div>
       </nav>
