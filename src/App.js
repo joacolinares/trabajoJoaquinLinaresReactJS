@@ -1,7 +1,7 @@
 
 import './App.css';
 import NavBar from './components/NavBar'
-import Bienvenida from './components/ItemListContainer'
+import ItemListContainer from './components/ItemListContainer'
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
     <NavBar/>
         <p strong>Aceptamos todo tipo de pago</p>
-        <Bienvenida brand="Tienda Gamer" />
+        <ItemListContainer greeting='Tienda Gamer'/>
 
       </header>
     </div>

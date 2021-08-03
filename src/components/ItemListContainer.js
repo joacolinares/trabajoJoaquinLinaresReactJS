@@ -1,14 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+function ItemListContainer(props){
+  return(
+    <div>
+      <h1>{props.greeting}</h1>
+    </div>
+  )
+}
 
-class Bienvenida extends React.Component {
-    render() {
-      return <h2>Bienvenido a  {this.props.brand}!</h2>
-    }
-  }
-  
-  const myelement = <Bienvenida brand="Tienda Gamer" />;
-  
-  ReactDOM.render(myelement, document.getElementById('root'));
-  
-  export default Bienvenida
+export default ItemListContainer
