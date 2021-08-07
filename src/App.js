@@ -29,7 +29,7 @@ function App() {
 
         
     <ItemCount/>
-                   
+    <button type="button" class="btn btn-light">Agregar al carrito</button>
       </header>
     </div>
 
