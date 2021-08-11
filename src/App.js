@@ -28,7 +28,7 @@ function App() {
         <ItemListContainer greeting='Tienda Gamer'/>
 
         
-    <ItemCount/>
+   <ItemCount stock = {5} initial = {1} onAdd={console.log("Hola")} />
     <button type="button" class="btn btn-light">Agregar al carrito</button>
       </header>
     </div>
