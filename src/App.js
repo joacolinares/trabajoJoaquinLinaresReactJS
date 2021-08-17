@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
 import ItemCount from './components/ItemCount';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles.css";
 //import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -28,8 +29,7 @@ function App() {
         <ItemListContainer greeting='Tienda Gamer'/>
 
         
-   <ItemCount stock = {5} initial = {1} onAdd={console.log("Hola")} />
-    <button type="button" class="btn btn-light">Agregar al carrito</button>
+   
       </header>
     </div>
 

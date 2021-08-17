@@ -1,5 +1,5 @@
 // import React, { useState } from 'react';
-
+import "../styles.css";
 // const useContador = inicial => {
 //     const [contador, setContador] = useState(inicial)
   
@@ -64,7 +64,7 @@ const handleClick =  (e, value) =>{
     <div>
       <button onClick = {(e) => handleClick(e, "subtract")}>-</button>
       <br></br>
-      <p>     {count} </p>
+      <p className = "colorTotal">     {count} </p>
       <button onClick = {(e) => handleClick(e, "add")}>+</button>
       <br></br>
       <input type = {"button"} value = {"agregar carrito"} onClick = {onAdd}/>
